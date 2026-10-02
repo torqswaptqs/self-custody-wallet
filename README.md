@@ -1,4 +1,4 @@
-# Net Self Custody Wallet
+# Torq Self Custody Wallet
 
 > A self-custody wallet engineered for uncompromising security and lightning-fast trading.
 
@@ -10,7 +10,7 @@
 
 ## Overview
 
-Net Wallet is a non-custodial crypto wallet built for traders who demand both ironclad security and execution speed. Your keys never leave your device, and your trades never wait in line. Designed from the ground up for active on-chain traders, Net combines hardware-grade key management with a high-performance trading engine optimized for sub-second order routing.
+Torq Wallet is a non-custodial crypto wallet built for traders who demand both ironclad security and execution speed. Your keys never leave your device, and your trades never wait in line. Designed from the ground up for active on-chain traders, Torq combines hardware-grade key management with a high-performance trading engine optimized for sub-second order routing.
 
 **You own your keys. You own your trades. No middlemen, no custodians, no compromises.**
 
@@ -19,7 +19,7 @@ Net Wallet is a non-custodial crypto wallet built for traders who demand both ir
 ## Key Features
 
 ### 🔐 Security First
-- **True self-custody** — Private keys are generated and stored locally; Net servers never see them
+- **True self-custody** — Private keys are generated and stored locally; Torq servers never see them
 - **Hardware wallet support** — Native integration with Ledger, Trezor, and other major hardware devices
 - **Encrypted local storage** — AES-256 encryption with a user-defined passphrase
 - **Biometric unlock** — Face ID, Touch ID, and Android biometric authentication
@@ -53,10 +53,10 @@ Net Wallet is a non-custodial crypto wallet built for traders who demand both ir
 
 ### Desktop (macOS, Windows, Linux)
 
-Download the latest release from [Net.io/download](https://Net.io/download), or build from source:
+Download the latest release from [Torq.io/download](https://Torq.io/download), or build from source:
 
 ```bash
-git clone https://github.com/Net/NART-wallet.git
+git clone https://github.com/Torq/NART-wallet.git
 cd NART-wallet
 npm install
 npm run build
@@ -65,7 +65,7 @@ npm start
 
 ### Mobile
 - [iOS App Store](https://apps.apple.com/app/NART-finance)
-- [Google Play](https://play.google.com/store/apps/details?id=io.Net)
+- [Google Play](https://play.google.com/store/apps/details?id=io.Torq)
 
 ### Browser Extension
 - [Chrome Web Store](https://chrome.google.com/webstore)
@@ -75,9 +75,9 @@ npm start
 
 ## Quick Start
 
-1. **Install** Net on your platform of choice.
+1. **Install** Torq on your platform of choice.
 2. **Create a wallet** or import an existing one using a seed phrase or hardware device.
-3. **Back up your seed phrase** — write it down and store it offline. Net cannot recover it for you.
+3. **Back up your seed phrase** — write it down and store it offline. Torq cannot recover it for you.
 4. **Fund your wallet** by sending crypto to your address or bridging from another chain.
 5. **Start trading** — connect to any dApp or use the built-in swap interface.
 
@@ -85,7 +85,7 @@ npm start
 
 ## Architecture
 
-Net is built on a modular, security-focused architecture:
+Torq is built on a modular, security-focused architecture:
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -101,21 +101,21 @@ Net is built on a modular, security-focused architecture:
 
 - **UI layer** — React + TypeScript for desktop, mobile, and extension clients
 - **Core engine** — A Rust trading engine compiled to native binaries and WebAssembly
-- **Key vault** — Isolated cryptographic module with zero network access
+- **Key vault** — Isolated cryptographic module with zero Torqwork access
 - **Chain adapters** — Pluggable modules for each supported blockchain
 
 ---
 
 ## Security
 
-Security is the foundation of Net, not an afterthought.
+Security is the foundation of Torq, not an afterthought.
 
 - **Audits** — Audited by leading security firms; full reports available in [`/audits`](./audits)
 - **Bug bounty** — Up to $250,000 for critical vulnerabilities. See [SECURITY.md](./SECURITY.md)
 - **Reproducible builds** — Verify that the binary you run matches the public source code
 - **No telemetry by default** — Opt-in only, never tied to wallet addresses
 
-If you discover a security vulnerability, please email **security@Net.io** rather than opening a public issue.
+If you discover a security vulnerability, please email **security@Torq.io** rather than opening a public issue.
 
 ---
 
@@ -150,23 +150,23 @@ npm run dev
 
 ## License
 
-Net is released under the [MIT License](./LICENSE).
+Torq is released under the [MIT License](./LICENSE).
 
 ---
 
 ## Disclaimer
 
-Net is non-custodial software. You are solely responsible for the security of your seed phrase and private keys. Lost keys cannot be recovered. Cryptocurrency trading involves substantial risk; never trade more than you can afford to lose. Net is provided "as is" without warranty of any kind.
+Torq is non-custodial software. You are solely responsible for the security of your seed phrase and private keys. Lost keys cannot be recovered. Cryptocurrency trading involves substantial risk; never trade more than you can afford to lose. Torq is provided "as is" without warranty of any kind.
 
 ---
 
 ## Links
 
-- 🌐 Website: [Net.io](https://Net.io)
-- 📖 Docs: [docs.Net.io](https://docs.Net.io)
-- 🐦 Twitter: [@Net](https://twitter.com/Net)
-- 💬 Discord: [discord.gg/Net](https://discord.gg/Net)
-- 📧 Contact: hello@Net.io
+- 🌐 Website: [Torq.io](https://Torq.io)
+- 📖 Docs: [docs.Torq.io](https://docs.Torq.io)
+- 🐦 Twitter: [@Torq](https://twitter.com/Torq)
+- 💬 Discord: [discord.gg/Torq](https://discord.gg/Torq)
+- 📧 Contact: hello@Torq.io
 
 ---
 
